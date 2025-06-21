@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding-top: 50px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+h1 {
+  margin-bottom: 20px;
+}
+.clock, #stopwatch {
+  font-size: 2.5em;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#start { background-color: #4CAF50; color: white; }
+#stop { background-color: #f44336; color: white; }
+#reset { background-color: #2196F3; color: white; }
